@@ -7,7 +7,7 @@ import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 
-export default function LandingPage() {
+export default function ContactPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="bounce-effect"
@@ -25,30 +25,12 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleApple
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "About",
-          id: "/about",
-        },
-        {
-          name: "Our Work",
-          id: "/our-work",
-        },
-        {
-          name: "Get Involved",
-          id: "/get-involved",
-        },
-        {
-          name: "Partners",
-          id: "/partners",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
+        { name: "Home", id: "/" },
+        { name: "About", id: "/about" },
+        { name: "Our Work", id: "/our-work" },
+        { name: "Get Involved", id: "/get-involved" },
+        { name: "Partners", id: "/partners" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="One Love Initiative"
     />
@@ -58,16 +40,13 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={true}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Get in Touch"
       title="Contact Us"
       description="Email us at oneloveinitiative.official@gmail.com or send us a message directly."
       buttons={[
         {
-          text: "Send Email",
-          href: "mailto:oneloveinitiative.official@gmail.com",
-        },
+          text: "Send Email",          href: "mailto:oneloveinitiative.official@gmail.com"},
       ]}
     />
   </div>
@@ -76,8 +55,7 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Need Help?"
       title="Direct Assistance"
       description="If you represent an organization or need specific support, contact us directly."
@@ -91,34 +69,16 @@ export default function LandingPage() {
       columns={[
         {
           items: [
-            {
-              label: "About",
-              href: "/about",
-            },
-            {
-              label: "Our Work",
-              href: "/our-work",
-            },
-            {
-              label: "Partners",
-              href: "/partners",
-            },
+            { label: "About", href: "/about" },
+            { label: "Our Work", href: "/our-work" },
+            { label: "Partners", href: "/partners" },
           ],
         },
         {
           items: [
-            {
-              label: "Get Involved",
-              href: "/get-involved",
-            },
-            {
-              label: "Contact",
-              href: "/contact",
-            },
-            {
-              label: "Email: oneloveinitiative.official@gmail.com",
-              href: "mailto:oneloveinitiative.official@gmail.com",
-            },
+            { label: "Get Involved", href: "/get-involved" },
+            { label: "Contact", href: "/contact" },
+            { label: "Email: oneloveinitiative.official@gmail.com", href: "mailto:oneloveinitiative.official@gmail.com" },
           ],
         },
       ]}
