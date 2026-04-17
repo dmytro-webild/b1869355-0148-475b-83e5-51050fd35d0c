@@ -26,29 +26,17 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "About",
-          id: "/about",
-        },
+          name: "About",          id: "/about"},
         {
-          name: "Our Work",
-          id: "/our-work",
-        },
+          name: "Our Work",          id: "/our-work"},
         {
-          name: "Get Involved",
-          id: "/get-involved",
-        },
+          name: "Get Involved",          id: "/get-involved"},
         {
-          name: "Partners",
-          id: "/partners",
-        },
+          name: "Partners",          id: "/partners"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="One Love Initiative"
     />
@@ -61,33 +49,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       groups={[
         {
-          id: "leadership",
-          groupTitle: "Core Team",
-          members: [
+          id: "leadership",          groupTitle: "Core Team",          members: [
             {
-              id: "p1",
-              title: "Prithivi Vijayakumar",
-              subtitle: "Founder",
-              detail: "Leading our vision and community outreach efforts.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg?_wi=1",
-            },
+              id: "p1",              title: "Prithivi Vijayakumar",              subtitle: "Founder",              detail: "Leading our vision and community outreach efforts.",              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg"},
             {
-              id: "p2",
-              title: "Operations Lead",
-              subtitle: "Director of Operations",
-              detail: "Coordinating drive logistics and kit assembly.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502783.jpg",
-            },
+              id: "p2",              title: "Operations Lead",              subtitle: "Director of Operations",              detail: "Coordinating drive logistics and kit assembly.",              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502783.jpg"},
             {
-              id: "p3",
-              title: "Marketing Lead",
-              subtitle: "Marketing Director",
-              detail: "Spreading awareness to schools and students.",
-              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg?_wi=1",
-            },
+              id: "p3",              title: "Marketing Lead",              subtitle: "Marketing Director",              detail: "Spreading awareness to schools and students.",              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg"},
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/young-people-working-donations-distribution-center_259150-57368.jpg?_wi=2",
-          imageAlt: "Young activists taking action",
         },
       ]}
       title="Our Team"
@@ -104,21 +73,13 @@ export default function LandingPage() {
       description="We prioritize efficiency and empathy in all our efforts."
       features={[
         {
-          id: "a1",
-          title: "Strategic Planning",
-          descriptions: [
-            "Targeting the specific needs of families in crisis.",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg?_wi=2",
-        },
+          id: "a1",          title: "Strategic Planning",          descriptions: [
+            "Targeting the specific needs of families in crisis."],
+          imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg"},
         {
-          id: "a2",
-          title: "Collaborative Action",
-          descriptions: [
-            "Working as a collective to maximize the impact of every donation.",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg?_wi=2",
-        },
+          id: "a2",          title: "Collaborative Action",          descriptions: [
+            "Working as a collective to maximize the impact of every donation."],
+          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg"},
       ]}
     />
   </div>
@@ -129,33 +90,21 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "About",
-              href: "/about",
-            },
+              label: "About",              href: "/about"},
             {
-              label: "Our Work",
-              href: "/our-work",
-            },
+              label: "Our Work",              href: "/our-work"},
             {
-              label: "Partners",
-              href: "/partners",
-            },
+              label: "Partners",              href: "/partners"},
           ],
         },
         {
           items: [
             {
-              label: "Get Involved",
-              href: "/get-involved",
-            },
+              label: "Get Involved",              href: "/get-involved"},
             {
-              label: "Contact",
-              href: "/contact",
-            },
+              label: "Contact",              href: "/contact"},
             {
-              label: "Email: oneloveinitiative.official@gmail.com",
-              href: "mailto:oneloveinitiative.official@gmail.com",
-            },
+              label: "Email: oneloveinitiative.official@gmail.com",              href: "mailto:oneloveinitiative.official@gmail.com"},
           ],
         },
       ]}
