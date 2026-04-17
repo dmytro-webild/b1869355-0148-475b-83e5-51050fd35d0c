@@ -48,7 +48,7 @@ export default function LandingPage() {
         { text: "Start Donating", href: "/get-involved" },
       ]}
       className="text-white flex flex-col"
-      logoClassName="text-[clamp(3rem,8vw,8rem)] font-bold text-white uppercase text-center order-2 mt-auto pb-12"
+      logoClassName="text-[clamp(3rem,8vw,8rem)] font-bold text-white uppercase text-center order-2 mx-auto pt-24 pb-12"
       contentContainerClassName="flex flex-col flex-grow"
       descriptionClassName="text-white order-1"
       buttonContainerClassName="order-1"
