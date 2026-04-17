@@ -154,21 +154,17 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "About",              href: "/about"},
+              label: "Start Your Own Drive",              href: "/get-involved"},
             {
-              label: "Our Work",              href: "/our-work"},
-            {
-              label: "Partners",              href: "/partners"},
+              label: "Volunteer with Us",              href: "/get-involved"},
           ],
         },
         {
           items: [
             {
-              label: "Get Involved",              href: "/get-involved"},
+              label: "Partner with Us",              href: "/partners"},
             {
-              label: "Contact",              href: "/contact"},
-            {
-              label: "Email: oneloveinitiative.official@gmail.com",              href: "mailto:oneloveinitiative.official@gmail.com"},
+              label: "Email Us",              href: "mailto:oneloveinitiative.official@gmail.com"},
           ],
         },
       ]}
