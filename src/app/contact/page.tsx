@@ -15,7 +15,7 @@ export default function ContactPage() {
         borderRadius="soft"
         contentWidth="mediumLarge"
         sizing="mediumLargeSizeMediumTitles"
-        background="floatingGradient"
+        background="none"
         cardStyle="subtle-shadow"
         primaryButtonStyle="flat"
         secondaryButtonStyle="solid"
