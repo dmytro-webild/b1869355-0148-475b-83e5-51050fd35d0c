@@ -96,8 +96,12 @@ export default function LandingPage() {
   <div id="features-what-we-do" data-section="features-what-we-do">
       <FeatureCardTwentyThree
       animationType="slide-up"
-      textboxLayout="default"
+      textboxLayout="split-actions"
       useInvertedBackground={true}
+      buttons={[
+        { text: "Start a Drive", href: "/get-involved" },
+        { text: "Learn More", href: "/about" }
+      ]}
       features={[
         {
           id: "drives",          title: "Donation Drives",          tags: [
