@@ -5,7 +5,7 @@ import ReactLenis from "lenis/react";
 import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
 import FeatureCardTwentyThree from '@/components/sections/feature/FeatureCardTwentyThree';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import HeroOverlay from '@/components/sections/hero/HeroOverlay';
+import HeroLogo from '@/components/sections/hero/HeroLogo';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
@@ -40,22 +40,15 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroOverlay
-      title="Empowering Students, Transforming Charlotte"
+      <HeroLogo
+      logoText="One Love Initiative"
       description="Help us reach 500 kits by joining our student-led movement in Charlotte—sign up today to make a difference."
-      tag="Students Serving Community"
       buttons={[
         { text: "Join Our Team", href: "/get-involved" },
         { text: "Start Donating", href: "/get-involved" },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/young-people-working-donations-distribution-center_259150-57368.jpg?_wi=1"
-      avatars={[
-        { src: "http://img.b2bpic.net/free-photo/lots-cheerful-volunteers-preparing-boxes-with-food-donations_23-2148732713.jpg", alt: "Volunteer 1" },
-        { src: "http://img.b2bpic.net/free-photo/people-doing-charity-work-together_23-2148687310.jpg", alt: "Volunteer 2" },
-        { src: "http://img.b2bpic.net/free-photo/medium-shot-people-with-donations_23-2149142768.jpg", alt: "Volunteer 3" },
-        { src: "http://img.b2bpic.net/free-photo/group-different-people-volunteering-foodbank-poor-people_23-2149012208.jpg", alt: "Volunteer 4" },
-        { src: "http://img.b2bpic.net/free-photo/african-american-activist-checks-isolated-mockup-laptop_482257-91114.jpg", alt: "Volunteer 5" },
-      ]}
+      className="text-white"
+      descriptionClassName="text-white"
     />
   </div>
 
