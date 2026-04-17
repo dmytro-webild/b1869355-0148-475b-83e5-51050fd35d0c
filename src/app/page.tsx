@@ -142,11 +142,11 @@ export default function LandingPage() {
       features={[
         {
           id: "v1",          title: "Empowerment",          descriptions: [
-            "Develop leadership skills in every volunteer to spark tangible, community-wide progress."],
+            "Unlock student potential to create a ripple effect of self-sustaining community development."],
           imageSrc: "http://img.b2bpic.net/free-photo/african-american-activist-checks-isolated-mockup-laptop_482257-91114.jpg"},
         {
           id: "v2",          title: "Compassion",          descriptions: [
-            "Provide essential care with dignity, ensuring every recipient feels seen, valued, and supported."],
+            "Deliver essential resources to restore hope and dignity to neighbors facing difficult times."],
           imageSrc: "http://img.b2bpic.net/free-photo/honest-conversations-mental-health_482257-123739.jpg"},
       ]}
     />
