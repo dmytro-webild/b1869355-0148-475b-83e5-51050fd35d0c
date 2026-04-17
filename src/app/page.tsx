@@ -47,11 +47,11 @@ export default function LandingPage() {
         { text: "Join Our Team", href: "/get-involved" },
         { text: "Start Donating", href: "/get-involved" },
       ]}
-      className="text-white flex flex-col"
-      logoClassName="text-[clamp(3rem,8vw,8rem)] font-bold text-white uppercase text-center order-2 mx-auto pt-24 pb-12"
-      contentContainerClassName="flex flex-col flex-grow"
-      descriptionClassName="text-white order-1"
-      buttonContainerClassName="order-1"
+      className="text-white flex flex-col items-start"
+      logoClassName="text-[clamp(4rem,10vw,10rem)] font-bold text-white uppercase text-left pt-24 pb-12"
+      contentContainerClassName="flex flex-col flex-grow items-start"
+      descriptionClassName="text-white order-1 text-left max-w-2xl"
+      buttonContainerClassName="order-1 flex justify-start"
     />
   </div>
 
