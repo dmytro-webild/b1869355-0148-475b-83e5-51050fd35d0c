@@ -51,11 +51,11 @@ export default function LandingPage() {
         {
           id: "leadership",          groupTitle: "Core Team",          members: [
             {
-              id: "p1",              title: "Prithivi Vijayakumar",              subtitle: "Founder",              detail: "Leading our vision and community outreach efforts.",              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg"},
+              id: "p1",              title: "Prithivi Vijayakumar",              subtitle: "Founder",              detail: "Leading our vision and community outreach efforts.",              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg?_wi=1"},
             {
               id: "p2",              title: "Operations Lead",              subtitle: "Director of Operations",              detail: "Coordinating drive logistics and kit assembly.",              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502783.jpg"},
             {
-              id: "p3",              title: "Marketing Lead",              subtitle: "Marketing Director",              detail: "Spreading awareness to schools and students.",              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg"},
+              id: "p3",              title: "Marketing Lead",              subtitle: "Marketing Director",              detail: "Spreading awareness to schools and students.",              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg?_wi=1"},
           ],
         },
       ]}
@@ -75,11 +75,11 @@ export default function LandingPage() {
         {
           id: "a1",          title: "Strategic Planning",          descriptions: [
             "Targeting the specific needs of families in crisis."],
-          imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg"},
+          imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg?_wi=2"},
         {
           id: "a2",          title: "Collaborative Action",          descriptions: [
             "Working as a collective to maximize the impact of every donation."],
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg"},
+          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg?_wi=2"},
       ]}
     />
   </div>
