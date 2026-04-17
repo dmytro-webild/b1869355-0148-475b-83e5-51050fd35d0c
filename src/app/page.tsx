@@ -72,7 +72,7 @@ export default function LandingPage() {
           href: "/get-involved",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/young-people-working-donations-distribution-center_259150-57368.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/young-people-working-donations-distribution-center_259150-57368.jpg?_wi=1"
       avatars={[
         {
           src: "http://img.b2bpic.net/free-photo/lots-cheerful-volunteers-preparing-boxes-with-food-donations_23-2148732713.jpg",
@@ -139,7 +139,7 @@ export default function LandingPage() {
           tags: [
             "Organization",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/group-young-teens-celebrating-world-youth-day-by-doing-activities-together_23-2151478299.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/group-young-teens-celebrating-world-youth-day-by-doing-activities-together_23-2151478299.jpg?_wi=1",
         },
         {
           id: "kits",
@@ -147,7 +147,7 @@ export default function LandingPage() {
           tags: [
             "Action",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-people-cutting-paper_23-2149394479.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-people-cutting-paper_23-2149394479.jpg?_wi=1",
         },
         {
           id: "partnerships",
