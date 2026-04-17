@@ -81,7 +81,7 @@ export default function LandingPage() {
         {
           value: "100+",          title: "Kits Distributed"},
         {
-          value: "3",          title: "Volunteers"},
+          value: "3",          title: "Active Student Volunteers"},
         {
           value: "1",          title: "Drives Organized"},
         {
