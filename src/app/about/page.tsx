@@ -5,9 +5,10 @@ import ReactLenis from "lenis/react";
 import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
+import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import TeamCardEleven from '@/components/sections/team/TeamCardEleven';
 
-export default function LandingPage() {
+export default function AboutPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="bounce-effect"
@@ -25,20 +26,29 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleApple
       navItems={[
-        {
-          name: "Home",          id: "/"},
-        {
-          name: "About",          id: "/about"},
-        {
-          name: "Our Work",          id: "/our-work"},
-        {
-          name: "Get Involved",          id: "/get-involved"},
-        {
-          name: "Partners",          id: "/partners"},
-        {
-          name: "Contact",          id: "/contact"},
+        { name: "Home", id: "/" },
+        { name: "About", id: "/about" },
+        { name: "Our Work", id: "/our-work" },
+        { name: "Get Involved", id: "/get-involved" },
+        { name: "Partners", id: "/partners" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="One Love Initiative"
+    />
+  </div>
+
+  <div id="mission-about" data-section="mission-about">
+    <MetricSplitMediaAbout
+      title="About Us"
+      description="Growing our impact through dedicated student leadership and community engagement."
+      metrics={[
+        { value: "Active Student Volunteers", title: "Our Volunteers" },
+        { value: "Student Leaders", title: "Leadership Growth" },
+        { value: "50+", title: "Projects Completed" }
+      ]}
+      useInvertedBackground={false}
+      mediaAnimation="slide-up"
+      metricsAnimation="slide-up"
     />
   </div>
 
@@ -89,22 +99,16 @@ export default function LandingPage() {
       columns={[
         {
           items: [
-            {
-              label: "About",              href: "/about"},
-            {
-              label: "Our Work",              href: "/our-work"},
-            {
-              label: "Partners",              href: "/partners"},
+            { label: "About", href: "/about" },
+            { label: "Our Work", href: "/our-work" },
+            { label: "Partners", href: "/partners" },
           ],
         },
         {
           items: [
-            {
-              label: "Get Involved",              href: "/get-involved"},
-            {
-              label: "Contact",              href: "/contact"},
-            {
-              label: "Email: oneloveinitiative.official@gmail.com",              href: "mailto:oneloveinitiative.official@gmail.com"},
+            { label: "Get Involved", href: "/get-involved" },
+            { label: "Contact", href: "/contact" },
+            { label: "Email: oneloveinitiative.official@gmail.com", href: "mailto:oneloveinitiative.official@gmail.com" },
           ],
         },
       ]}
