@@ -42,8 +42,7 @@ export default function PartnersPage() {
       useInvertedBackground={false}
       title="Our Supporters"
       description="Local organizations that help us bridge the gap."
-      names={[
-        "Corporate Partners",        "Nonprofit Allies",        "Community Groups",        "Schools",        "Local Business"]}
+      names={["Corporate Partners", "Nonprofit Allies", "Community Groups", "Schools", "Local Business"]}
     />
   </div>
 
@@ -55,14 +54,8 @@ export default function PartnersPage() {
       title="Partner Benefits"
       description="How we provide value to our community partners."
       features={[
-        {
-          id: "b1",          title: "Targeted Outreach",          descriptions: [
-            "Connecting with young, driven volunteers."],
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-businesswomen-with-face-masks-elbow-bumping-cafe_637285-8144.jpg"},
-        {
-          id: "b2",          title: "Efficient Logistics",          descriptions: [
-            "Well-organized supply delivery and tracking."],
-          imageSrc: "http://img.b2bpic.net/free-photo/young-old-couple-besties_23-2150168952.jpg"},
+        { id: "b1", title: "Targeted Outreach", descriptions: ["We connect partners with a motivated, youth-driven volunteer base for maximum visibility."], imageSrc: "http://img.b2bpic.net/free-photo/happy-businesswomen-with-face-masks-elbow-bumping-cafe_637285-8144.jpg" },
+        { id: "b2", title: "Efficient Logistics", descriptions: ["We ensure organized supply delivery and precise tracking for every initiative."], imageSrc: "http://img.b2bpic.net/free-photo/young-old-couple-besties_23-2150168952.jpg" },
       ]}
     />
   </div>

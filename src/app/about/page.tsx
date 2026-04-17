@@ -82,14 +82,8 @@ export default function AboutPage() {
       title="Our Approach"
       description="We prioritize efficiency and empathy in all our efforts."
       features={[
-        {
-          id: "a1",          title: "Strategic Planning",          descriptions: [
-            "Targeting the specific needs of families in crisis."],
-          imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg?_wi=2"},
-        {
-          id: "a2",          title: "Collaborative Action",          descriptions: [
-            "Working as a collective to maximize the impact of every donation."],
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg?_wi=2"},
+        { id: "a1", title: "Strategic Planning", descriptions: ["We prioritize data-driven analysis to pinpoint and meet the direct needs of families in crisis."], imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg?_wi=2" },
+        { id: "a2", title: "Collaborative Action", descriptions: ["We mobilize students in a collective effort to streamline distribution and maximize immediate assistance."], imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg?_wi=2" },
       ]}
     />
   </div>

@@ -28,18 +28,12 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleApple
       navItems={[
-        {
-          name: "Home",          id: "/"},
-        {
-          name: "About",          id: "/about"},
-        {
-          name: "Our Work",          id: "/our-work"},
-        {
-          name: "Get Involved",          id: "/get-involved"},
-        {
-          name: "Partners",          id: "/partners"},
-        {
-          name: "Contact",          id: "/contact"},
+        { name: "Home", id: "/" },
+        { name: "About", id: "/about" },
+        { name: "Our Work", id: "/our-work" },
+        { name: "Get Involved", id: "/get-involved" },
+        { name: "Partners", id: "/partners" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="One Love Initiative"
     />
@@ -51,23 +45,16 @@ export default function LandingPage() {
       description="Help us reach 500 kits by joining our student-led movement in Charlotte—sign up today to make a difference."
       tag="Students Serving Community"
       buttons={[
-        {
-          text: "Join Our Team",          href: "/get-involved"},
-        {
-          text: "Start Donating",          href: "/get-involved"},
+        { text: "Join Our Team", href: "/get-involved" },
+        { text: "Start Donating", href: "/get-involved" },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/young-people-working-donations-distribution-center_259150-57368.jpg?_wi=1"
       avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/lots-cheerful-volunteers-preparing-boxes-with-food-donations_23-2148732713.jpg",          alt: "Volunteer 1"},
-        {
-          src: "http://img.b2bpic.net/free-photo/people-doing-charity-work-together_23-2148687310.jpg",          alt: "Volunteer 2"},
-        {
-          src: "http://img.b2bpic.net/free-photo/medium-shot-people-with-donations_23-2149142768.jpg",          alt: "Volunteer 3"},
-        {
-          src: "http://img.b2bpic.net/free-photo/group-different-people-volunteering-foodbank-poor-people_23-2149012208.jpg",          alt: "Volunteer 4"},
-        {
-          src: "http://img.b2bpic.net/free-photo/african-american-activist-checks-isolated-mockup-laptop_482257-91114.jpg",          alt: "Volunteer 5"},
+        { src: "http://img.b2bpic.net/free-photo/lots-cheerful-volunteers-preparing-boxes-with-food-donations_23-2148732713.jpg", alt: "Volunteer 1" },
+        { src: "http://img.b2bpic.net/free-photo/people-doing-charity-work-together_23-2148687310.jpg", alt: "Volunteer 2" },
+        { src: "http://img.b2bpic.net/free-photo/medium-shot-people-with-donations_23-2149142768.jpg", alt: "Volunteer 3" },
+        { src: "http://img.b2bpic.net/free-photo/group-different-people-volunteering-foodbank-poor-people_23-2149012208.jpg", alt: "Volunteer 4" },
+        { src: "http://img.b2bpic.net/free-photo/african-american-activist-checks-isolated-mockup-laptop_482257-91114.jpg", alt: "Volunteer 5" },
       ]}
     />
   </div>
@@ -78,14 +65,10 @@ export default function LandingPage() {
       title="Our Mission"
       description="Our mission is to mobilize students to create meaningful community impact through organized donation drives and essential kit assembly, supporting individuals and families experiencing hardship."
       metrics={[
-        {
-          value: "100+",          title: "Kits Distributed"},
-        {
-          value: "3",          title: "Student Leaders"},
-        {
-          value: "1",          title: "Drives Organized"},
-        {
-          value: "1",          title: "Partners"},
+        { value: "100+", title: "Kits Distributed" },
+        { value: "3", title: "Student Leaders" },
+        { value: "1", title: "Drives Organized" },
+        { value: "1", title: "Partners" },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/colleagues-studying-together-college-exam_23-2149038441.jpg"
       mediaAnimation="slide-up"
@@ -103,18 +86,9 @@ export default function LandingPage() {
         { text: "Learn More", href: "/about" }
       ]}
       features={[
-        {
-          id: "drives",          title: "Donation Drives",          tags: [
-            "Organization"],
-          imageSrc: "http://img.b2bpic.net/free-photo/group-young-teens-celebrating-world-youth-day-by-doing-activities-together_23-2151478299.jpg?_wi=1"},
-        {
-          id: "kits",          title: "Kit Assembly",          tags: [
-            "Action"],
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-people-cutting-paper_23-2149394479.jpg?_wi=1"},
-        {
-          id: "partnerships",          title: "Community Partnerships",          tags: [
-            "Collaboration"],
-          imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502777.jpg"},
+        { id: "drives", title: "Donation Drives", tags: ["Organization"], imageSrc: "http://img.b2bpic.net/free-photo/group-young-teens-celebrating-world-youth-day-by-doing-activities-together_23-2151478299.jpg?_wi=1" },
+        { id: "kits", title: "Kit Assembly", tags: ["Action"], imageSrc: "http://img.b2bpic.net/free-photo/high-angle-people-cutting-paper_23-2149394479.jpg?_wi=1" },
+        { id: "partnerships", title: "Community Partnerships", tags: ["Collaboration"], imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502777.jpg" },
       ]}
       title="How We Create Impact"
       description="We partner with established organizations to ensure that all donations reach those who need them most."
@@ -127,8 +101,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Our Proud Partners"
       description="We are honored to collaborate with these organizations."
-      names={[
-        "Crisis Assistance Ministry",        "Local Schools",        "Youth Volunteer Corps",        "Community Health Hub",        "Charlotte Outreach"]}
+      names={["Crisis Assistance Ministry", "Local Schools", "Youth Volunteer Corps", "Community Health Hub", "Charlotte Outreach"]}
     />
   </div>
 
@@ -140,14 +113,8 @@ export default function LandingPage() {
       title="Our Core Values"
       description="We build our mission upon these foundational beliefs."
       features={[
-        {
-          id: "v1",          title: "Empowerment",          descriptions: [
-            "Unlock student potential to create a ripple effect of self-sustaining community development."],
-          imageSrc: "http://img.b2bpic.net/free-photo/african-american-activist-checks-isolated-mockup-laptop_482257-91114.jpg"},
-        {
-          id: "v2",          title: "Compassion",          descriptions: [
-            "Deliver essential resources to restore hope and dignity to neighbors facing difficult times."],
-          imageSrc: "http://img.b2bpic.net/free-photo/honest-conversations-mental-health_482257-123739.jpg"},
+        { id: "v1", title: "Empowerment", descriptions: ["We equip students with leadership skills to ensure successful, community-led initiatives."], imageSrc: "http://img.b2bpic.net/free-photo/african-american-activist-checks-isolated-mockup-laptop_482257-91114.jpg" },
+        { id: "v2", title: "Compassion", descriptions: ["We prioritize empathetic service to deliver resources that directly improve daily lives in crisis."], imageSrc: "http://img.b2bpic.net/free-photo/honest-conversations-mental-health_482257-123739.jpg" },
       ]}
     />
   </div>
@@ -157,18 +124,14 @@ export default function LandingPage() {
       columns={[
         {
           items: [
-            {
-              label: "Start Your Own Drive",              href: "/get-involved"},
-            {
-              label: "Volunteer with Us",              href: "/get-involved"},
+            { label: "Start Your Own Drive", href: "/get-involved" },
+            { label: "Volunteer with Us", href: "/get-involved" },
           ],
         },
         {
           items: [
-            {
-              label: "Partner with Us",              href: "/partners"},
-            {
-              label: "Email Us",              href: "mailto:oneloveinitiative.official@gmail.com"},
+            { label: "Partner with Us", href: "/partners" },
+            { label: "Email Us", href: "mailto:oneloveinitiative.official@gmail.com" },
           ],
         },
       ]}
