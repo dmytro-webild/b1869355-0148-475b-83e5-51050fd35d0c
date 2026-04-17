@@ -52,9 +52,9 @@ export default function LandingPage() {
       tag="Students Serving Community"
       buttons={[
         {
-          text: "Join Our Movement",          href: "/get-involved"},
+          text: "Join Our Team",          href: "/get-involved"},
         {
-          text: "Donate Items",          href: "/get-involved"},
+          text: "Start Donating",          href: "/get-involved"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/young-people-working-donations-distribution-center_259150-57368.jpg?_wi=1"
       avatars={[
