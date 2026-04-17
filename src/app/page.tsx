@@ -52,7 +52,7 @@ export default function LandingPage() {
       tag="Students Serving Community"
       buttons={[
         {
-          text: "Sign Up to Volunteer",          href: "/get-involved"},
+          text: "Start Volunteering Today",          href: "/get-involved"},
         {
           text: "Donate Items",          href: "/get-involved"},
       ]}
