@@ -116,7 +116,7 @@ export default function LandingPage() {
             "Collaboration"],
           imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502777.jpg"},
       ]}
-      title="What We Do"
+      title="How We Create Impact"
       description="We partner with established organizations to ensure that all donations reach those who need them most."
     />
   </div>
