@@ -57,14 +57,8 @@ export default function InvolvedPage() {
       title="Ways to Give"
       description="Your support is the backbone of our success."
       features={[
-        {
-          id: "g1",          title: "Host a Drive",          descriptions: [
-            "Become a site coordinator at your own school."],
-          imageSrc: "http://img.b2bpic.net/free-photo/people-doing-charity-work-together_23-2148687310.jpg"},
-        {
-          id: "g2",          title: "Donate Supplies",          descriptions: [
-            "View our wishlist to see what we need right now."],
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-with-donations_23-2149142768.jpg"},
+        { id: "g1", title: "Host a Drive", descriptions: ["We empower students to act as site coordinators to directly lead initiatives at their schools."], imageSrc: "http://img.b2bpic.net/free-photo/people-doing-charity-work-together_23-2148687310.jpg" },
+        { id: "g2", title: "Donate Supplies", descriptions: ["We streamline the donation process to ensure critical supplies reach recipients immediately."], imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-people-with-donations_23-2149142768.jpg" },
       ]}
     />
   </div>
