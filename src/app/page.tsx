@@ -113,8 +113,8 @@ export default function LandingPage() {
       title="Our Core Values"
       description="We build our mission upon these foundational beliefs."
       features={[
-        { id: "v1", title: "Empowerment", descriptions: ["We equip students with leadership skills to ensure successful, community-led initiatives."], imageSrc: "http://img.b2bpic.net/free-photo/african-american-activist-checks-isolated-mockup-laptop_482257-91114.jpg" },
-        { id: "v2", title: "Compassion", descriptions: ["We prioritize empathetic service to deliver resources that directly improve daily lives in crisis."], imageSrc: "http://img.b2bpic.net/free-photo/honest-conversations-mental-health_482257-123739.jpg" },
+        { id: "v1", title: "Empowerment", descriptions: ["We actively lead and guide our peers to drive community-wide initiatives.", "Directly creating leaders to serve Charlotte."], imageSrc: "http://img.b2bpic.net/free-photo/african-american-activist-checks-isolated-mockup-laptop_482257-91114.jpg" },
+        { id: "v2", title: "Compassion", descriptions: ["We prioritize empathetic action to deliver life-changing support to neighbors in need.", "Directly alleviating daily hardships in our community."], imageSrc: "http://img.b2bpic.net/free-photo/honest-conversations-mental-health_482257-123739.jpg" },
       ]}
     />
   </div>
