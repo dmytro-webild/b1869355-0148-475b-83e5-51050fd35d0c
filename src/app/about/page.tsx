@@ -69,7 +69,7 @@ export default function LandingPage() {
               title: "Prithivi Vijayakumar",
               subtitle: "Founder",
               detail: "Leading our vision and community outreach efforts.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg?_wi=1",
             },
             {
               id: "p2",
@@ -83,10 +83,10 @@ export default function LandingPage() {
               title: "Marketing Lead",
               subtitle: "Marketing Director",
               detail: "Spreading awareness to schools and students.",
-              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg?_wi=1",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/young-people-working-donations-distribution-center_259150-57368.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-people-working-donations-distribution-center_259150-57368.jpg?_wi=2",
           imageAlt: "Young activists taking action",
         },
       ]}
@@ -109,7 +109,7 @@ export default function LandingPage() {
           descriptions: [
             "Targeting the specific needs of families in crisis.",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg?_wi=2",
         },
         {
           id: "a2",
@@ -117,7 +117,7 @@ export default function LandingPage() {
           descriptions: [
             "Working as a collective to maximize the impact of every donation.",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg?_wi=2",
         },
       ]}
     />
