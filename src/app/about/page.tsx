@@ -16,7 +16,7 @@ export default function AboutPage() {
         borderRadius="soft"
         contentWidth="mediumLarge"
         sizing="mediumLargeSizeMediumTitles"
-        background="floatingGradient"
+        background="none"
         cardStyle="subtle-shadow"
         primaryButtonStyle="flat"
         secondaryButtonStyle="solid"
