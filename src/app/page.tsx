@@ -47,7 +47,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroOverlay
-      title="One Love Initiative"
+      title="Empowering Students, Transforming Charlotte"
       description="Help us reach 500 kits by joining our student-led movement in Charlotte—sign up today to make a difference."
       tag="Students Serving Community"
       buttons={[
