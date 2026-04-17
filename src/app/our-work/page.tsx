@@ -112,7 +112,7 @@ export default function LandingPage() {
           descriptions: [
             "Ensuring students are equipped for a successful school year.",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/group-young-teens-celebrating-world-youth-day-by-doing-activities-together_23-2151478299.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/group-young-teens-celebrating-world-youth-day-by-doing-activities-together_23-2151478299.jpg?_wi=2",
         },
         {
           id: "w2",
@@ -120,7 +120,7 @@ export default function LandingPage() {
           descriptions: [
             "Providing joy and essential comfort items during festive seasons.",
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-people-cutting-paper_23-2149394479.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-people-cutting-paper_23-2149394479.jpg?_wi=2",
         },
       ]}
     />
