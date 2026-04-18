@@ -41,14 +41,14 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroLogo
-      logoText="One Love Initiative"
+      logoText="ONE LOVE\nINITIATIVE"
       description="A student-led movement in Charlotte—sign up today to help us reach 500 kits and make a real difference."
       buttons={[
         { text: "Join Our Team", href: "/get-involved" },
         { text: "Start Donating", href: "/get-involved" },
       ]}
       className="text-white flex flex-col items-start"
-      logoClassName="text-[clamp(2.5rem,7vw,7rem)] font-bold text-white uppercase text-left pt-24 pb-12 w-full"
+      logoClassName="text-[clamp(2.5rem,7vw,7rem)] font-bold text-white uppercase text-left pt-24 pb-12 w-full leading-[0.8] whitespace-pre-line"
       contentContainerClassName="flex flex-col flex-grow items-start"
       descriptionClassName="text-white order-1 text-left max-w-2xl"
       buttonContainerClassName="order-1 flex justify-start"
