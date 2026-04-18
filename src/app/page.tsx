@@ -41,7 +41,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroLogo
-      logoText="ONE LOVE\nINITIATIVE"
+      logoText="ONE LOVE INITIATIVE"
       description="A student-led movement in Charlotte—sign up today to help us reach 500 kits and make a real difference."
       buttons={[
         { text: "Join Our Team", href: "/get-involved" },
