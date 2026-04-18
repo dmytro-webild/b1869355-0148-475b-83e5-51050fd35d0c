@@ -61,8 +61,8 @@ export default function LandingPage() {
       title="Our Mission"
       description="Our mission is to mobilize students to create meaningful community impact through organized donation drives and essential kit assembly, supporting individuals and families experiencing hardship."
       metrics={[
-        { value: "100+", title: "Kits Distributed" },
-        { value: "3", title: "Student Leaders" },
+        { value: "100+", title: "Kits Made" },
+        { value: "4 ", title: "Student Leaders" },
         { value: "1", title: "Drives Organized" },
         { value: "1", title: "Partners" },
       ]}
@@ -82,9 +82,9 @@ export default function LandingPage() {
         { text: "Learn More", href: "/about" }
       ]}
       features={[
-        { id: "drives", title: "Donation Drives", tags: ["Organization"], imageSrc: "http://img.b2bpic.net/free-photo/group-young-teens-celebrating-world-youth-day-by-doing-activities-together_23-2151478299.jpg?_wi=1" },
-        { id: "kits", title: "Kit Assembly", tags: ["Action"], imageSrc: "http://img.b2bpic.net/free-photo/high-angle-people-cutting-paper_23-2149394479.jpg?_wi=1" },
-        { id: "partnerships", title: "Community Partnerships", tags: ["Collaboration"], imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502777.jpg" },
+        { id: "drives", title: "Donation Drives", tags: ["Member of our community come together and support our disadvantaged neighbors "], imageSrc: "http://img.b2bpic.net/free-photo/group-young-teens-celebrating-world-youth-day-by-doing-activities-together_23-2151478299.jpg?_wi=1" },
+        { id: "kits", title: "Kit Assembly", tags: ["Students gain volunteer hours and valuable life experience collaborating while with their peers sorting and assembling donated items, turning them into O.L.I kits"], imageSrc: "http://img.b2bpic.net/free-photo/high-angle-people-cutting-paper_23-2149394479.jpg?_wi=1" },
+        { id: "partnerships", title: "Community Partnerships", tags: ["Collaborating with businesses, schools, and other organizations, we increase the scope of our impact and provide a way for students and local businesses to interact first hand "], imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502777.jpg" },
       ]}
       title="How We Create Impact"
       description="We partner with established organizations to ensure that all donations reach those who need them most."
