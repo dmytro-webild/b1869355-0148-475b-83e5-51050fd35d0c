@@ -34,6 +34,7 @@ export default function LandingPage() {
         { name: "Get Involved", id: "/get-involved" },
         { name: "Partners", id: "/partners" },
         { name: "Contact", id: "/contact" },
+        { name: "Donate", id: "https://donate.stripe.com/3cIcMY53Y81g7MK0hl0kE00" },
       ]}
       brandName="One Love Initiative"
     />
@@ -45,7 +46,7 @@ export default function LandingPage() {
       description="A student-led movement in Charlotte—sign up today to help us reach 500 kits and make a real difference."
       buttons={[
         { text: "Join Our Team", href: "/get-involved" },
-        { text: "Start Donating", href: "/get-involved" },
+        { text: "Donate", href: "https://donate.stripe.com/3cIcMY53Y81g7MK0hl0kE00" },
       ]}
       className="text-white flex flex-col items-start"
       logoClassName="text-[clamp(2.5rem,7vw,7rem)] font-bold text-white uppercase text-left pt-24 pb-12 w-full leading-[0.8] whitespace-pre-line"
@@ -61,8 +62,8 @@ export default function LandingPage() {
       title="Our Mission"
       description="Our mission is to mobilize students to create meaningful community impact through organized donation drives and essential kit assembly, supporting individuals and families experiencing hardship."
       metrics={[
-        { value: "0", title: "Kits Made" },
-        { value: "4 ", title: "Student Leaders" },
+        { value: "3", title: "Active Volunteers" },
+        { value: "4", title: "Team Members" },
         { value: "1", title: "Drives Organized" },
         { value: "1", title: "Partners" },
       ]}
@@ -79,7 +80,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       buttons={[
         { text: "Start a Drive", href: "/get-involved" },
-        { text: "Learn More", href: "/about" }
+        { text: "Donate Now", href: "https://donate.stripe.com/3cIcMY53Y81g7MK0hl0kE00" }
       ]}
       features={[
         { id: "drives", title: "Donation Drives", tags: ["Member of our community come together and support our disadvantaged neighbors "], imageSrc: "http://img.b2bpic.net/free-photo/group-young-teens-celebrating-world-youth-day-by-doing-activities-together_23-2151478299.jpg?_wi=1" },
@@ -122,6 +123,7 @@ export default function LandingPage() {
           items: [
             { label: "Start Your Own Drive", href: "/get-involved" },
             { label: "Volunteer with Us", href: "/get-involved" },
+            { label: "Donate", href: "https://donate.stripe.com/3cIcMY53Y81g7MK0hl0kE00" },
           ],
         },
         {
