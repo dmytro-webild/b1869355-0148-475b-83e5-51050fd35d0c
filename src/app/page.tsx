@@ -41,7 +41,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroLogo
-      logoText="ONE LOVE INITIATIVE"
+      logoText="The ONE LOVE INITIATIVE"
       description="A student-led movement in Charlotte—sign up today to help us reach 500 kits and make a real difference."
       buttons={[
         { text: "Join Our Team", href: "/get-involved" },
@@ -61,7 +61,7 @@ export default function LandingPage() {
       title="Our Mission"
       description="Our mission is to mobilize students to create meaningful community impact through organized donation drives and essential kit assembly, supporting individuals and families experiencing hardship."
       metrics={[
-        { value: "100+", title: "Kits Made" },
+        { value: "0", title: "Kits Made" },
         { value: "4 ", title: "Student Leaders" },
         { value: "1", title: "Drives Organized" },
         { value: "1", title: "Partners" },
