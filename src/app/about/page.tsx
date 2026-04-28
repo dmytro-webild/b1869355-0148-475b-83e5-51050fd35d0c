@@ -61,10 +61,10 @@ export default function AboutPage() {
             tag="The Team"
             memberVariant="card"
             useInvertedBackground={true}
-            membersAnimation="entrance-slide"
+            membersAnimation="reveal-blur"
             members={[
               { id: "1", name: "Founder", imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-man-with-glasses_23-2148810842.jpg" },
-              { id: "2", name: "Lead Organizer", imageSrc: "http://img.b2bpic.net/free-photo/cheerful-woman-posing_23-2148810852.jpg" },
+              { id: "2", name: "Lead Organizer", imageSrc: "http://img.b2bpic.net/cheerful-woman-posing_23-2148810852.jpg" },
             ]}
           />
         </div>
