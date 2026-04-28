@@ -83,9 +83,9 @@ export default function LandingPage() {
         { text: "Donate Now", href: "https://donate.stripe.com/3cIcMY53Y81g7MK0hl0kE00" }
       ]}
       features={[
-        { id: "drives", title: "Donation Drives", tags: ["Member of our community come together and support our disadvantaged neighbors "], imageSrc: "http://img.b2bpic.net/free-photo/group-young-teens-celebrating-world-youth-day-by-doing-activities-together_23-2151478299.jpg?_wi=1" },
-        { id: "kits", title: "Kit Assembly", tags: ["Students gain volunteer hours and valuable life experience collaborating while with their peers sorting and assembling donated items, turning them into O.L.I kits"], imageSrc: "http://img.b2bpic.net/free-photo/high-angle-people-cutting-paper_23-2149394479.jpg?_wi=1" },
-        { id: "partnerships", title: "Community Partnerships", tags: ["Collaborating with businesses, schools, and other organizations, we increase the scope of our impact and provide a way for students and local businesses to interact first hand "], imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502777.jpg" },
+        { id: "drives", title: "Donation Drives", tags: ["Members of our community come together and contribute essential items for families experiencing hardship across Charlotte."], imageSrc: "http://img.b2bpic.net/free-photo/group-young-teens-celebrating-world-youth-day-by-doing-activities-together_23-2151478299.jpg?_wi=1" },
+        { id: "kits", title: "Kit Assembly", tags: ["Students earn volunteer hours and gain real-world experience working alongside their peers to sort and assemble donated items into O.L.I Kits."], imageSrc: "http://img.b2bpic.net/free-photo/high-angle-people-cutting-paper_23-2149394479.jpg?_wi=1" },
+        { id: "partnerships", title: "Community Partnerships", tags: ["By partnering with local organizations, schools, and places of worship, we extend our reach and maximize the impact of every O.L.I Kit we distribute."], imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502777.jpg" },
       ]}
       title="How We Create Impact"
       description="We partner with established organizations to ensure that all donations reach those who need them most."
