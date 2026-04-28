@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="bounce-effect"
-        defaultTextAnimation="entrance-slide"
+        defaultTextAnimation="reveal-blur"
         borderRadius="soft"
         contentWidth="mediumLarge"
         sizing="mediumLargeSizeMediumTitles"
