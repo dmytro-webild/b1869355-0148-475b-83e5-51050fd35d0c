@@ -61,11 +61,11 @@ export default function AboutPage() {
         {
           id: "leadership",          groupTitle: "Core Team",          members: [
             {
-              id: "p1",              title: "Prithivi Vijayakumar",              subtitle: "Founder",              detail: "Leading our vision and community outreach efforts.",              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg?_wi=1"},
+              id: "p1",              title: "Prithivi Vijayakumar",              subtitle: "Founder",              detail: "Leading our vision and community outreach efforts.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CVGRsuLN3NPMvFNLJFfLVtvasC/uploaded-1777337470803-6imjhqw9.jpg"},
             {
-              id: "p2",              title: "Saket Talap",              subtitle: "Director of Operations",              detail: "Coordinating drive logistics and kit assembly.",              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502783.jpg"},
+              id: "p2",              title: "Saket Talap",              subtitle: "Director of Operations",              detail: "Coordinating drive logistics and kit assembly.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CVGRsuLN3NPMvFNLJFfLVtvasC/uploaded-1777337502647-omsuf8ab.jpg"},
             {
-              id: "p3",              title: "Marketing Lead",              subtitle: "Marketing Director",              detail: "Spreading awareness to schools and students.",              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg?_wi=1"},
+              id: "p3",              title: "Rishi Ramesh",              subtitle: "Marketing Director",              detail: "Spreading awareness to schools and students.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CVGRsuLN3NPMvFNLJFfLVtvasC/uploaded-1777337524276-hnftjd3k.jpg"},
           ],
         },
       ]}
