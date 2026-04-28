@@ -42,8 +42,8 @@ export default function AboutPage() {
       title="About Us"
       description="Growing our impact through dedicated student leadership and community engagement."
       metrics={[
-        { value: "Active Student Volunteers", title: "Our Volunteers" },
-        { value: "Student Leaders", title: "Leadership Growth" },
+        { value: "Kits", title: "5 kits made so far" },
+        { value: "Goal", title: "20k kits made before August" },
         { value: "50+", title: "Projects Completed" }
       ]}
       useInvertedBackground={false}
@@ -63,7 +63,7 @@ export default function AboutPage() {
             {
               id: "p1",              title: "Prithivi Vijayakumar",              subtitle: "Founder",              detail: "Leading our vision and community outreach efforts.",              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502778.jpg?_wi=1"},
             {
-              id: "p2",              title: "Operations Lead",              subtitle: "Director of Operations",              detail: "Coordinating drive logistics and kit assembly.",              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502783.jpg"},
+              id: "p2",              title: "Saket Talap",              subtitle: "Director of Operations",              detail: "Coordinating drive logistics and kit assembly.",              imageSrc: "http://img.b2bpic.net/free-photo/young-activists-taking-action_23-2149502783.jpg"},
             {
               id: "p3",              title: "Marketing Lead",              subtitle: "Marketing Director",              detail: "Spreading awareness to schools and students.",              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-group-multiethnic-students-studying-outdoors_171337-11764.jpg?_wi=1"},
           ],
