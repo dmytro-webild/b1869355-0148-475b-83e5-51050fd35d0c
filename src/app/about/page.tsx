@@ -48,7 +48,7 @@ export default function AboutPage() {
               { value: "1", title: "Drives Organized" },
               { value: "1", title: "Partners" },
             ]}
-            imageSrc="http://img.b2bpic.net/free-photo/colleagues-studying-together-college-exam_23-2149038441.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/colleagues-studying-together-college-exam_23-2149038441.jpg?_wi=1"
             mediaAnimation="slide-up"
             metricsAnimation="slide-up"
           />
