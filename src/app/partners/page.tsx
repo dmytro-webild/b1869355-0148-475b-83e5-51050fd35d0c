@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import SplitAbout from '@/components/sections/about/SplitAbout';
+import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 
 export default function PartnersPage() {
   return (
@@ -26,23 +26,21 @@ export default function PartnersPage() {
             navItems={[
               { name: "Home", id: "/" },
               { name: "About", id: "/about" },
-              { name: "Our Work", id: "/our-work" },
               { name: "Get Involved", id: "/get-involved" },
               { name: "Partners", id: "/partners" },
               { name: "Contact", id: "/contact" },
-              { name: "Donate", id: "https://donate.stripe.com/3cIcMY53Y81g7MK0hl0kE00" },
             ]}
             brandName="One Love Initiative"
           />
         </div>
 
         <div id="partner" data-section="partner">
-           <SplitAbout
-             title="Become a Partner"
-             description="Join a growing network of organizations committed to serving Charlotte. Partnering with us allows you to tap into student energy while amplifying the reach of your community programs."
-             imageSrc="http://img.b2bpic.net/free-photo/handshake-between-two-businessmen_23-2148782046.jpg"
-             textboxLayout="split-actions"
+           <InlineImageSplitTextAbout
+             heading={[
+               { type: 'text', content: "Become a Partner" }
+             ]}
              buttons={[{ text: "Reach Out Today", href: "/contact" }]}
+             useInvertedBackground={false}
            />
         </div>
 
@@ -53,7 +51,6 @@ export default function PartnersPage() {
                 items: [
                   { label: "Start Your Own Drive", href: "/get-involved" },
                   { label: "Volunteer with Us", href: "/get-involved" },
-                  { label: "Donate", href: "https://donate.stripe.com/3cIcMY53Y81g7MK0hl0kE00" },
                 ],
               },
               {
