@@ -3,8 +3,8 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import SplitAbout from '@/components/sections/about/SplitAbout';
 
 export default function GetInvolvedPage() {
   return (
@@ -37,15 +37,12 @@ export default function GetInvolvedPage() {
         </div>
 
         <div id="why-it-matters" data-section="why-it-matters">
-          <FeatureCardTwentySeven
-            animationType="slide-up"
-            textboxLayout="default"
-            useInvertedBackground={true}
-            title="Why It Matters"
-            description="In Charlotte, thousands of families face daily challenges meeting basic needs. Our initiative focuses on bridging this gap by providing essential kits that offer immediate support and hope. By working together, we ensure that no one in our community has to struggle alone."
-            features={[]}
-            className="py-24"
-          />
+           <SplitAbout
+             title="Why It Matters"
+             description="Every kit assembled and every drive hosted represents a tangible step toward community stability. By engaging students, we create a ripple effect of compassion that strengthens the foundation of our neighborhoods."
+             imageSrc="http://img.b2bpic.net/free-photo/close-up-hands-putting-donations-box_23-2148784865.jpg"
+             textboxLayout="split-description"
+           />
         </div>
 
         <div id="footer" data-section="footer">

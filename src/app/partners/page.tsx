@@ -3,8 +3,8 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import MediaAbout from '@/components/sections/about/MediaAbout';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import SplitAbout from '@/components/sections/about/SplitAbout';
 
 export default function PartnersPage() {
   return (
@@ -36,16 +36,14 @@ export default function PartnersPage() {
           />
         </div>
 
-        <div id="become-a-partner" data-section="become-a-partner">
-          <MediaAbout
-            title="Become a Partner"
-            description="We are always seeking passionate partners to join our mission of serving the Charlotte community. Whether you are a local school, business, or nonprofit organization, your support helps us expand our reach and deliver more O.L.I Kits to those in need. Contact us today to explore partnership opportunities and discuss how we can work together to create meaningful change."
-            buttons={[
-              { text: "Email Us", href: "mailto:oneloveinitiative.official@gmail.com" }
-            ]}
-            imageSrc="http://img.b2bpic.net/free-photo/handshake-business-partners_23-2148777977.jpg"
-            useInvertedBackground={false}
-          />
+        <div id="partner" data-section="partner">
+           <SplitAbout
+             title="Become a Partner"
+             description="Join a growing network of organizations committed to serving Charlotte. Partnering with us allows you to tap into student energy while amplifying the reach of your community programs."
+             imageSrc="http://img.b2bpic.net/free-photo/handshake-between-two-businessmen_23-2148782046.jpg"
+             textboxLayout="split-actions"
+             buttons={[{ text: "Reach Out Today", href: "/contact" }]}
+           />
         </div>
 
         <div id="footer" data-section="footer">

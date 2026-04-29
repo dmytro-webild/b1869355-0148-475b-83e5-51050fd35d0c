@@ -3,9 +3,9 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
-import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import SplitAbout from '@/components/sections/about/SplitAbout';
+import TeamCardEleven from '@/components/sections/team/TeamCardEleven';
 
 export default function AboutPage() {
   return (
@@ -37,36 +37,13 @@ export default function AboutPage() {
           />
         </div>
 
-        <div id="mission-about" data-section="mission-about">
-          <MetricSplitMediaAbout
-            useInvertedBackground={false}
-            title="Our Mission"
-            description="Our mission is to mobilize students to create meaningful community impact through organized donation drives and essential kit assembly, supporting individuals and families experiencing hardship."
-            metrics={[
-              { value: "3", title: "Active Volunteers" },
-              { value: "4", title: "Team Members" },
-              { value: "1", title: "Drives Organized" },
-              { value: "1", title: "Partners" },
-            ]}
-            imageSrc="http://img.b2bpic.net/free-photo/colleagues-studying-together-college-exam_23-2149038441.jpg?_wi=1"
-            mediaAnimation="slide-up"
-            metricsAnimation="slide-up"
-          />
-        </div>
-
-        <div id="team-section" data-section="team-section">
-           {/* Placeholder for existing team component as per constraints */}
-        </div>
-
-        <div id="our-story" data-section="our-story">
-            <FeatureCardTwentySeven 
-                animationType="slide-up"
-                textboxLayout="default"
-                useInvertedBackground={true}
-                title="Our Story"
-                description="Founded with the simple belief that students have the power to change their community, the One Love Initiative began in Charlotte to address local hardships directly. We are driven by the ambitious goal of distributing 20,000 kits to individuals in need, building a sustainable network of student volunteers and community partners one drive at a time."
-                features={[]}
-            />
+        <div id="about" data-section="about">
+           <SplitAbout
+             title="Our Story"
+             description="Founded by students with a vision to serve, we began as a small group committed to addressing local needs through direct action. Today, we have grown into a vibrant movement connecting classrooms to the community."
+             imageSrc="http://img.b2bpic.net/free-photo/diverse-group-students-studying-library_23-2149100199.jpg"
+             textboxLayout="split"
+           />
         </div>
 
         <div id="footer" data-section="footer">
