@@ -2,10 +2,9 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import FeatureCardTwentySeven from '@/components/sections/feature/FeatureCardTwentySeven';
-import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
+import MediaAbout from '@/components/sections/about/MediaAbout';
+import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 
 export default function PartnersPage() {
   return (
@@ -22,65 +21,53 @@ export default function PartnersPage() {
         headingFontWeight="light"
     >
       <ReactLenis root>
-  <div id="nav" data-section="nav">
-      <NavbarStyleApple
-      navItems={[
-        { name: "Home", id: "/" },
-        { name: "About", id: "/about" },
-        { name: "Our Work", id: "/our-work" },
-        { name: "Get Involved", id: "/get-involved" },
-        { name: "Partners", id: "/partners" },
-        { name: "Contact", id: "/contact" },
-      ]}
-      brandName="One Love Initiative"
-    />
-  </div>
+        <div id="nav" data-section="nav">
+          <NavbarStyleApple
+            navItems={[
+              { name: "Home", id: "/" },
+              { name: "About", id: "/about" },
+              { name: "Our Work", id: "/our-work" },
+              { name: "Get Involved", id: "/get-involved" },
+              { name: "Partners", id: "/partners" },
+              { name: "Contact", id: "/contact" },
+              { name: "Donate", id: "https://donate.stripe.com/3cIcMY53Y81g7MK0hl0kE00" },
+            ]}
+            brandName="One Love Initiative"
+          />
+        </div>
 
-  <div id="socialProof" data-section="socialProof">
-      <SocialProofOne
-      textboxLayout="default"
-      useInvertedBackground={false}
-      title="Our Supporters"
-      description="Local organizations that help us bridge the gap."
-      names={["Corporate Partners", "Nonprofit Allies", "Community Groups", "Schools", "Local Business"]}
-    />
-  </div>
+        <div id="become-a-partner" data-section="become-a-partner">
+          <MediaAbout
+            title="Become a Partner"
+            description="We are always seeking passionate partners to join our mission of serving the Charlotte community. Whether you are a local school, business, or nonprofit organization, your support helps us expand our reach and deliver more O.L.I Kits to those in need. Contact us today to explore partnership opportunities and discuss how we can work together to create meaningful change."
+            buttons={[
+              { text: "Email Us", href: "mailto:oneloveinitiative.official@gmail.com" }
+            ]}
+            imageSrc="http://img.b2bpic.net/free-photo/handshake-business-partners_23-2148777977.jpg"
+            useInvertedBackground={false}
+          />
+        </div>
 
-  <div id="feature" data-section="feature">
-      <FeatureCardTwentySeven
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={false}
-      title="Partner Benefits"
-      description="How we provide value to our community partners."
-      features={[
-        { id: "b1", title: "Targeted Outreach", descriptions: ["We connect partners with a motivated, youth-driven volunteer base for maximum visibility."], imageSrc: "http://img.b2bpic.net/free-photo/happy-businesswomen-with-face-masks-elbow-bumping-cafe_637285-8144.jpg" },
-        { id: "b2", title: "Efficient Logistics", descriptions: ["We ensure organized supply delivery and precise tracking for every initiative."], imageSrc: "http://img.b2bpic.net/free-photo/young-old-couple-besties_23-2150168952.jpg" },
-      ]}
-    />
-  </div>
-
-  <div id="footer" data-section="footer">
-      <FooterLogoEmphasis
-      columns={[
-        {
-          items: [
-            { label: "About", href: "/about" },
-            { label: "Our Work", href: "/our-work" },
-            { label: "Partners", href: "/partners" },
-          ],
-        },
-        {
-          items: [
-            { label: "Get Involved", href: "/get-involved" },
-            { label: "Contact", href: "/contact" },
-            { label: "Email: oneloveinitiative.official@gmail.com", href: "mailto:oneloveinitiative.official@gmail.com" },
-          ],
-        },
-      ]}
-      logoText="One Love Initiative"
-    />
-  </div>
+        <div id="footer" data-section="footer">
+          <FooterLogoEmphasis
+            columns={[
+              {
+                items: [
+                  { label: "Start Your Own Drive", href: "/get-involved" },
+                  { label: "Volunteer with Us", href: "/get-involved" },
+                  { label: "Donate", href: "https://donate.stripe.com/3cIcMY53Y81g7MK0hl0kE00" },
+                ],
+              },
+              {
+                items: [
+                  { label: "Partner with Us", href: "/partners" },
+                  { label: "Email Us", href: "mailto:oneloveinitiative.official@gmail.com" },
+                ],
+              },
+            ]}
+            logoText="One Love Initiative"
+          />
+        </div>
       </ReactLenis>
     </ThemeProvider>
   );
