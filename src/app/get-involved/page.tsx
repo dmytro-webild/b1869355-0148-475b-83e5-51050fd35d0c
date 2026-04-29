@@ -26,6 +26,7 @@ export default function GetInvolvedPage() {
             navItems={[
               { name: "Home", id: "/" },
               { name: "About", id: "/about" },
+              { name: "Our Work", id: "/our-work" },
               { name: "Get Involved", id: "/get-involved" },
               { name: "Partners", id: "/partners" },
               { name: "Contact", id: "/contact" },
