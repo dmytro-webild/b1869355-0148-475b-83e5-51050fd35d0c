@@ -34,7 +34,6 @@ export default function LandingPage() {
         { name: "Get Involved", id: "/get-involved" },
         { name: "Partners", id: "/partners" },
         { name: "Contact", id: "/contact" },
-        { name: "Donate", id: "https://donate.stripe.com/3cIcMY53Y81g7MK0hl0kE00" },
       ]}
       brandName="One Love Initiative"
     />
